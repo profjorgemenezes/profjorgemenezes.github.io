@@ -1,6 +1,6 @@
 // PERSONALIZE AQUI: informe seu WhatsApp com código do país + DDD + número.
 // Exemplo de formato: 5585999999999 (não use espaços, parênteses ou traços).
-const WHATSAPP_NUMBER = "55SEUDDDSEUNUMERO";
+const WHATSAPP_NUMBER = "5585996576410";
 
 const whatsappButton = document.getElementById("whatsappButton");
 const message = "Olá! Gostaria de saber mais sobre as aulas particulares de Matemática.";
