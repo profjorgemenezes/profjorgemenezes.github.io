@@ -1,33 +1,22 @@
-# Landing page — Aulas Particulares de Matemática
+# Matemática com Clareza — landing page premium
 
-Site institucional responsivo para divulgação de aulas particulares de Matemática em Fortaleza (CE).
+Landing page responsiva do Professor Jorge Menezes, com foco em estudantes, pais e responsáveis.
 
 ## Arquivos
+- `index.html` — estrutura, textos, SEO básico e imagens de banco.
+- `style.css` — identidade visual premium azul-marinho, verde-petróleo e off-white.
+- `script.js` — menu mobile, ano automático e links do WhatsApp.
 
-- `index.html` — estrutura e conteúdo da página.
-- `style.css` — identidade visual e layout responsivo.
-- `script.js` — menu mobile, ano automático e link do WhatsApp.
-- `assets/` — pasta reservada para imagens locais, caso queira substituir as imagens externas.
+## WhatsApp
+O número já está configurado no `script.js` como `5585996576410`.
+Para alterar, atualize `WHATSAPP_NUMBER` com código do país + DDD + número, somente dígitos.
 
-## Antes de publicar
+## Imagens
+As imagens ilustrativas são carregadas do Unsplash por URL. É necessária conexão à internet para exibi-las. Antes de uso comercial, confira os termos e a licença aplicável às imagens selecionadas; substitua-as por outras de banco de imagens caso necessário.
 
-1. Abra `script.js`.
-2. Localize `WHATSAPP_NUMBER`.
-3. Substitua `55SEUDDDSEUNUMERO` pelo número com código do Brasil, DDD e telefone, somente números.
-   - Exemplo fictício: `5585999999999`.
-4. Revise o texto e as informações de atendimento para refletirem sua disponibilidade real.
+## Publicação no GitHub Pages
+Envie `index.html`, `style.css` e `script.js` para a raiz do repositório publicado no GitHub Pages. Não é necessário processo de build.
 
-As imagens atuais são carregadas de URLs públicas do Unsplash. Para hospedar tudo localmente, baixe imagens de uso permitido, coloque-as em `assets/` e atualize os caminhos `src` no `index.html`.
-
-## Publicar no GitHub Pages
-
-1. Entre em https://github.com e crie um repositório público, por exemplo `aulas-particulares-matematica`.
-2. Envie os arquivos desta pasta para a raiz do repositório.
-3. No repositório, abra **Settings → Pages**.
-4. Em **Build and deployment**, selecione **Deploy from a branch**.
-5. Escolha a branch `main` e a pasta `/ (root)`, depois clique em **Save**.
-6. Aguarde a publicação. O GitHub exibirá o endereço do site na seção Pages.
-
-## Personalização
-
-Edite os textos diretamente no `index.html`. As principais cores estão no início de `style.css`, dentro de `:root`.
+## Observações
+- Revise disponibilidade, regiões atendidas e condições de atendimento antes da publicação.
+- Não foram incluídos depoimentos, resultados ou credenciais não confirmados.
